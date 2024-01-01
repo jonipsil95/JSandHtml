@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bongour stack oc23 and on/new-triviaPROJECT2"
+		},
+		{
+			"path": "../bongour stack oc23 and on/guess-my-number"
+		},
+		{
+			"path": "../bongour stack oc23 and on/counterPROJECT1"
+		},
+		{
+			"path": "../bongour stack oc23 and on/calculator"
+		},
+		{
+			"path": "../bongour stack oc23 and on/rpsPROJECT3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio files"
+	}
+}

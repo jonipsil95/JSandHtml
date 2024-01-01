@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetching & Displaying Data from a Web Server</title>
+</head>
+<body>
+
+  <!--
+    <button onclick="console.log('clicked!')">Fetch <b>products</b> from DummyJSON.com</button>
+  -->
+
+    <button id="fetch-button">Fetch <b>all products</b> from DummyJSON.com</button>
+    <br><br>
+    <button id="fetch-smartphones-only">Fetch <b>smartphones only</b> from DummyJSON.com</button>
+    <br><br>
+    <button id="fetch-laptops-only">Fetch <b>laptops only</b> from DummyJSON.com</button>
+    <br><br>
+
+    <div id="products-container">
+      Press one of the above buttons to load products ...
+    </div>
+
+    <hr>
+
+    <p id="categories-container">
+      Loading categories list, please wait ...
+      <!-- Dynamic JS Content -->
+    </p>
+
+    <p>
+      <label for="search-box">Type to search </label>
+      <input 
+        type="text"
+        name="search-box"
+        id="search-box"
+        onchange="console.log('it works!')"
+        onkeyup="showValue()"
+        >
+    </p>
+
+    <hr>
+
+    <h3>Shopping Cart</h3>
+    <p id="cart-container">
+      Your cart is empty !
+    </p>
+  
+  <script src="./index.js"></script>
+</body>
+</html>

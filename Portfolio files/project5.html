@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 5</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: rgb(0, 201, 70);
+        background: linear-gradient(180deg, #ffffff 0%, #830083 100%);
+        background-attachment: fixed;
+        text-shadow: rgba(0, 0, 0, 0.705) 3px 0 30px;
+        background-image: url(Gifts_Two_Bowknot_Colored_background_Template_579544_1920x1080.jpg);
+
+        text-align: center;
+        margin-top: 12%;
+        color: white;
+        font-weight: 100;
+      }
+      h1 {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 100px;
+        letter-spacing: 3px;
+      }
+      h2 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        padding: 20px;
+      }
+      h3 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        direction: rtl;
+      }
+      img{width: 300px;padding: 2rem;}
+
+      
+     form{direction: rtl;}
+     label{font-family: Arial, Helvetica, sans-serif;
+    }
+     input{width: 230px;}
+    </style>
+  </head>
+  <body>
+    <img src="Black-gift-box-with-red-bow-on-transparent-background-PNG.png" alt="">
+    <div><h1>Here & Now</h1></div>
+    <div><h2>רצינו להזמין אתכם להנות משלל מתנות</h2></div>
+    <div>
+      <h3>
+        מתנות מכל הסוגים לכל מיני סוגי אירועים בהזמנה אישית, אין עוד מתנה כמו
+        שלכם!
+      </h3>
+      <br><br>
+      <form action="/submit_form" method="post">
+    <label for="username">שם פרטי:
+        <br>
+    </label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="password">E-mail:
+        <br>
+    </label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    <input type="submit" value="עדכנו אותי">
+    <br>
+    </div>
+  </body>
+</html>
